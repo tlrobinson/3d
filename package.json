@@ -1,0 +1,16 @@
+{
+  "name": "3d",
+  "private": true,
+  "version": "0.0.0",
+  "description": "uses three.js to display a 3D stl or obj file",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --entry ./index.js --output-filename bundle.js"
+  },
+  "dependencies": {
+    "stl-obj-viewer": "0.0.1"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.12.14"
+  }
+}
